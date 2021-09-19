@@ -1,6 +1,6 @@
 Código Node-Red del dispositivo IoT embarcado en el vehículo.
 
-Los flujos están escritos desde el nulo conocimiento inicial de Node-Red y el escaso tiempo disponible por lo que por favor disculpe si no son "elegantes" ni eficientes ( seguramente hay formas más elegantes y eficientes de hacer lo mismo).
+Los flujos están escritos desde el nulo conocimiento inicial de Node-Red y el escaso tiempo disponible por lo que por favor disculpe si no son "elegantes" ni eficientes ( seguramente hay formas más elegantes y eficientes de hacer lo mismo) ni tampoco reflejan la lógica real y completa que se requiere.
 
 Esta versión está configurada (por facilidad en el desarrollo y depuración) para PC Windows, siendo migrable de forma muy sencilla a cualquier dispositivo
 capaz de ejecutar Node-red (como Raspberry pi) sin más que cambiar la configuración de nodos que gestionan los puertos serie.
@@ -14,3 +14,7 @@ con el mismo resultado: las sentencias NMEA devueltas no contenían latitud, lon
 
 Se trata de una versión "Prueba de Concepto" con código no refinado y con simulación de datos en lugar de emplear dispositivos OBD-II ELM-327 o similares (pero implementando la 
 adquisición de datos del vehículo mediante el (sencillísimo) protocolo serie que implementan.
+
+En ausencia del modelado de procesos de fijación de precios de mercado, se ha optado por igualar precios a la previsión de Air quality Index (AQI) obtenida a través de servicios Web (para la localización en la que se encuentra el vehículo)...
+
+En resumen: hay un larguísimo TO-DO y esta iniciativa sólo pretende ser un paso previo a una prueba de concepto.
