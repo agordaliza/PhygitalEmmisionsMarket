@@ -2,6 +2,8 @@ Código Node-Red del dispositivo IoT embarcado en el vehículo.
 
 Los flujos están escritos desde el nulo conocimiento inicial de Node-Red y el escaso tiempo disponible por lo que por favor disculpe si no son "elegantes" ni eficientes ( seguramente hay formas más elegantes y eficientes de hacer lo mismo) ni tampoco reflejan la lógica real y completa que se requiere.
 
+Tampoco habrá actualización contínua de los datos ya que requiere que toda la infraestructura que simula la adquisición de datos esté activada y operativa.
+
 Esta versión está configurada (por facilidad en el desarrollo y depuración) para PC Windows, siendo migrable de forma muy sencilla a cualquier dispositivo
 capaz de ejecutar Node-red (como Raspberry pi) sin más que cambiar la configuración de nodos que gestionan los puertos serie.
 
